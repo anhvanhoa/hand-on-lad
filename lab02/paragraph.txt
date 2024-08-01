@@ -1,0 +1,2 @@
+Nếu trong mỗi dòng có những từ nhạy cảm như sex, fuck, drug, kill thì hay thay thế nguyên âm bằng ký tự *.
+Xin Chào Techmaster
