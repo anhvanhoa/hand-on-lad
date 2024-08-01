@@ -6,6 +6,11 @@ import (
 	"os"
 )
 
+/*
+	Viết ứng dụng command line, nhập vào tên file, và số nguyên dương Y. Đọc file file ở dòng Y rồi
+	in ra. Chú ý ngoại lệ khi Y > tổng số dòng của file và khi file có kích thước cực kỳ lớn.
+*/
+
 func main() {
 	var fileName string
 	var lineNumber int

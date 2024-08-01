@@ -8,6 +8,12 @@ import (
 	"strings"
 )
 
+/*
+	Viết ứng dụng command file tên search , nhập vào đường dẫn thư mục và một từ khóa. Thư
+	mục này chứa một số file *.txt, hãy tìm từ khóa trong tất cả file và in ra màn hình kết quả gồm
+	tên file, dòng thứ mấy, nội dung dòng chứa từ khóa
+*/
+
 func searchInFile(filePath string, keyword string) {
 	file, err := os.Open(filePath)
 	if err != nil {

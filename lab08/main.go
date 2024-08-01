@@ -34,6 +34,12 @@ func printTree(dir string, prefix string) {
 	}
 }
 
+/*
+	Trong linux có một ứng dụng tree hiển thị cấu trúc cây thư mục trực quan trong màn hình
+	console, hãy viết ứng dụng command line có chức năng giống với ứng dụng tree với một tham
+	số là đường dẫn thư mục cần quét và hiển thị cấu trúc cây thư mục.
+*/
+
 func main() {
 	// Nhập đường dẫn thư mục từ người dùng
 	scanner := bufio.NewScanner(os.Stdin)

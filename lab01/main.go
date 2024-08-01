@@ -5,6 +5,10 @@ import (
 	"os"
 )
 
+/*
+	Đọc nội dung từ một file *.txt chứa nhiều dòng, rồi in ra console.
+*/
+
 func main() {
 	// Đọc file .txt
 	nameFile := "paragraph.txt"

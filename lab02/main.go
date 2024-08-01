@@ -6,6 +6,12 @@ import (
 	"strings"
 )
 
+/*
+	Cải tiến: đọc nội dung từ một file *.txt chứa nhiều dòng. Nếu trong mỗi dòng có những từ nhạy
+	cảm như sex, fuck, drug, kill thì hay thay thế nguyên âm bằng ký tự * , ví dụ
+	s*x, f*ck, dr*g, k*ll . Sau đó in ra console.
+*/
+
 func main() {
 	// Đọc file .txt
 	var nameFile string = "paragraph.txt"
@@ -37,5 +43,5 @@ func main() {
 		}
 	}
 	// In
-	fmt.Println(string(file))
+	fmt.Println(string(content))
 }

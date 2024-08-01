@@ -5,6 +5,10 @@ import (
 	"os"
 )
 
+/*
+	Ghi một chuỗi có sẵn vào một file *.txt
+*/
+
 func main() {
 	var paragraph string = "Xin chao techmaster"
 	var nameFile string = "paragraph.txt"

@@ -5,6 +5,14 @@ import (
 	"os"
 )
 
+/*
+	Hãy tạo ứng dụng command line, nhập vào tên file và một số nguyên dương X > 10 , hãy tạo ra
+	một file gồm những dòng dài 256 ký tự ngẫu nhiên A-Za-z0-9 làm sao để kích thước của file là X
+	megabytes (mega tính bằng 1024 * 1024 = 1.048.576 bytes). Điều gì xảy ra khi X cực kỳ lớn, bạn
+	sẽ tạo file kích thước khủng. Hãy quan sát đến tới hạn nào thì ứng dụng báo lỗi, hãy giải thích
+	nguyên nhân và cách khắc phục.
+*/
+
 func main() {
 	var fileName string
 	var sizeMB int

@@ -6,9 +6,14 @@ import (
 	"os"
 )
 
+/*
+	Đặt một số câu hỏi: Bạn tên là gì? Bạn sinh ngày nào? Bạn làm nghề gì ? Nhận câu trả lời sau
+	đó ghi cả câu hỏi và trả lời vào file person.txt tách thành từng dòng cho dễ nhìn.
+*/
+
 func main() {
 	var questions = [4]string{"Bạn tên là gì?", "Bạn bao nhiêu tuổi?", "Bạn đến từ đâu?", "Hôm nay bạn như thế nào?"}
-	var nameFile string = "paragraph.txt"
+	var nameFile string = "person.txt"
 	// Đọc file .txt
 	file, err := os.OpenFile(nameFile, os.O_APPEND|os.O_CREATE, 0644)
 	// Xử lý lỗi
